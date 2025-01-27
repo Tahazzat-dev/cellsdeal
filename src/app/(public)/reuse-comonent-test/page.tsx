@@ -2,7 +2,7 @@
 
 import { useDispatch } from "react-redux";
 
-import ReusableModal from "@/Common/ReuseModal/ReuseModal";
+import ReusableModal from "@/Components/Common/ReuseModal/ReuseModal";
 import { openModal } from "@/Redux/features/modal/modalSlice";
 
 export default function ExamplePage() {

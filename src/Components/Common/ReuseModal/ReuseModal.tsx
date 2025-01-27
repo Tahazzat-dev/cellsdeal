@@ -35,6 +35,7 @@ const ReusableModal = ({ children, className }: { className?: string, children: 
             <DialogContent className={className}>
                 {/* // This is only need for render no need to provide the title */}
                 <DialogTitle></DialogTitle> 
+                
                 {children}
 
             </DialogContent>
