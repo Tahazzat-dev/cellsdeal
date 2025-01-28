@@ -2,6 +2,7 @@
 
 # Category Slider
 
+[Notion Link](https://tremendous-ziconium-d90.notion.site/Cellsdeal-typeography-189653173727804da7dce587d1b99b08?pvs=4)
 ### link: a
 
 - color: rgb(255, 194, 32)
