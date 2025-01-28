@@ -5,38 +5,8 @@
 
 :root {
 
-      --cl-green: #7ad03a;
-      --cl-red: #a00;
-      --cl-orange: #ffba00;
-      --cl-blue: #2ea2cc;
-      --cl-primary: #7F54B3;
-      --cl-primary-text: white;
-      --cl-secondary: #e9e6ed;
-      --cl-secondary-text: #515151;
-      --cl-highlight: #777335;
-      --cl-highligh-text: white;
-      --cl-content-bg: #fff;
-      --cl-subtext: #767676;
-         
-      /* font */
-       --fs-md:20px;
-       --fs-base:16px;
-       --fs-lg:30px;
-       --lh-lg:36px;
-       --lh-semi-lg:30px;
-        
-      
     
-  }
-
-  .fs-md{
-    font-size: var(--fs-md);
-   
-  }
-
-  .section-top-subtitle{
-    line-height: var(--lh-semi-lg);
-    color: var(--cl-orange);
+    
   }
 
   
