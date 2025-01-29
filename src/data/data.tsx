@@ -1,0 +1,31 @@
+export const products = [
+    {
+        id: "1",
+        title: "Modern King Sized Wooden Bed",
+        image: "/images/products/airpot.png",
+        price: 250.0,
+        oldPrice: 300.0,
+        rating: 4,
+        reviews: 15,
+        isOnSale: true,
+    },
+    {
+        id: "2",
+        title: "Stretchable Woolen Shirt for Men",
+        image: "/images/products/shirt.png",
+        price: 45.0,
+        oldPrice: 60.0,
+        rating: 5,
+        reviews: 8,
+        isOnSale: false,
+    },
+    {
+        id: "3",
+        title: "Peach Moisturizing Lip Balm",
+        image: "/images/products/headphone.jpg",
+        price: 10.0,
+        rating: 3,
+        reviews: 22,
+        isOnSale: true,
+    },
+]
