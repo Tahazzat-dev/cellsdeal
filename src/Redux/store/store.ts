@@ -2,6 +2,8 @@ import { configureStore } from '@reduxjs/toolkit';
 import modalReducer from "../features/modal/modalSlice";
 import authReducer from '../features/auth/authSlice';
 import { baseApi } from '../api/baseApi';
+import dropDownSlice from '../features/dropDown/dropDownSlice';
+
 export const store = configureStore({
   reducer: {
     [baseApi.reducerPath]: baseApi.reducer,
@@ -10,7 +12,9 @@ export const store = configureStore({
     auth: authReducer,
 
     // modal
-      modal: modalReducer,
+    modal: modalReducer,
+    // drop down
+    dropdown:dropDownSlice
     
   },
 
