@@ -1,15 +1,15 @@
 "use client";
 
-import Dropdown from "@/Components/Common/DropDown/DropDown";
+import Dropdown from "@/components/Common/DropDown/DropDown";
 
-import HeroProducts from "@/Components/HomeHero/HeroProducts/HeroProducts";
-import ProductCard from "@/Components/ProductCard/ProductCard";
-import { Button } from "@/Components/ui/button";
+import HeroProducts from "@/components/HomeHero/HeroProducts/HeroProducts";
+import ProductCard from "@/components/ProductCard/ProductCard";
+import { Button } from "@/components/ui/button";
 import { toggleDropdown } from "@/Redux/features/dropDown/dropDownSlice";
 import { useAppDispatch } from "@/Redux/store/hooks";
 import { products } from "@/data/data";
 import Link from "next/link";
-import ReusableModal from "@/Components/Common/ReuseModal/ReuseModal";
+import ReusableModal from "@/components/Common/ReuseModal/ReuseModal";
 import { openModal } from "@/Redux/features/modal/modalSlice";
 
 
@@ -99,7 +99,7 @@ import {
     SelectLabel,
     SelectTrigger,
     SelectValue,
-} from "@/Components/ui/select"
+} from "@/components/ui/select"
 
 export function SelectDemo() {
     return (

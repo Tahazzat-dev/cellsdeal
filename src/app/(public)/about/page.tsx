@@ -1,4 +1,4 @@
-import SectionHead from '@/Components/Common/SectionHead/SectionHead'
+import SectionHead from '@/components/Common/SectionHead/SectionHead'
 import React from 'react'
 
 function AboutPage() {
